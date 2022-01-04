@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WT_LAB", ".", "{2F7FDA61-F39C-4AF1-B514-9E0C04B92C87}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_64577"
+		Debug.AspNetCompiler.PhysicalPath = "..\WT_LAB\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64577\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_64577"
+		Release.AspNetCompiler.PhysicalPath = "..\WT_LAB\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64577\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "64577"
+		SlnRelativePath = "..\WT_LAB\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F7FDA61-F39C-4AF1-B514-9E0C04B92C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F7FDA61-F39C-4AF1-B514-9E0C04B92C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4526B33B-C390-4706-B2F9-5AFF5D311C3F}
+	EndGlobalSection
+EndGlobal

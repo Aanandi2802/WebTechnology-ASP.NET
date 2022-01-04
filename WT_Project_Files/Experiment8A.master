@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Experiment8A.master.cs" Inherits="Experiment8A" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<title></title>
+<style>
+body {
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+.topnav {
+overflow: hidden;
+background-color: black;
+}
+.topnav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+</style>
+</head>
+<body>
+<form id="form1" runat="server">
+<div>
+<div class="topnav" style="background-color:darkcyan">
+<asp:HyperLink ID="HyperLink1" class="link" runat="server" NavigateUrl="~/WebForm1.aspx">IT</asp:HyperLink>
+<asp:HyperLink ID="HyperLink2" class="link" runat="server" NavigateUrl="~/WebForm3.aspx">CE</asp:HyperLink>
+<asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/WebForm2.aspx">EC</asp:HyperLink>
+<asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="#">Dharamasinh Desai University</asp:HyperLink>
+</div>
+<div style="padding:20px;">
+<asp:ContentPlaceHolder runat="server" ID="it"></asp:ContentPlaceHolder>
+<asp:ContentPlaceHolder runat="server" ID="ce"></asp:ContentPlaceHolder>
+<asp:ContentPlaceHolder runat="server" ID="ec"></asp:ContentPlaceHolder>
+</div>
+</div>
+</form>
+</body>
+</html>
