@@ -1,5 +1,10 @@
 # WebTechnology-ASP.NET
 
+LANGUAGES:
+
+      Asp.net
+      C#
+
 TOOLS/APPARATUS:
 
     Microsoft Visual Studio 2005/2008/2010 
